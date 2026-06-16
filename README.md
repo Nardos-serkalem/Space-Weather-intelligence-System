@@ -2,24 +2,23 @@
 
 **Solar Storm & Geomagnetic Intelligence Platform** — An AI-powered space weather monitoring and briefing system.
 
-Built for operational awareness, this system collects real-time solar data from NASA DONKI and NOAA, processes it intelligently, and delivers professional-grade space weather briefings powered by Retrieval-Augmented Generation (RAG) and Llama 3.
+this system collects real-time solar data from NASA DONKI and NOAA, processes it intelligently, and delivers professional-grade space weather briefings powered by Retrieval-Augmented Generation (RAG) and Llama 3.
 
 ---
 
-## ✨ Features
+##  Features
 
-* 🌞 Real-time Solar Event Tracking (Solar Flares, CMEs, SEPs, Geomagnetic Storms)
-* 🧠 Intelligent Retrieval with event-type detection and recency filtering
-* 🎯 Cross-Encoder Reranking for high-quality contextual retrieval
-* 🤖 Professional AI Briefings using structured Llama 3 prompts
-* 💬 Interactive Chat Interface with chat history and persistence
-* 📊 Live Sidebar Metrics (Sunspot Number, Solar Activity Indicators)
-* 🔐 Secure Admin Portal with chat logging and management
-* ⚙️ Modular Data Pipeline (Scrape → Clean → Chunk → Embed → Retrieve)
+*  Real-time Solar Event Tracking (Solar Flares, CMEs, SEPs, Geomagnetic Storms)
+*  Intelligent Retrieval with event-type detection and recency filtering
+*  Cross-Encoder Reranking for high-quality contextual retrieval
+*  Professional AI Briefings using structured Llama 3 prompts
+*  Interactive Chat Interface with chat history and persistence
+*  Secure Admin Portal with chat logging and management
+*  Modular Data Pipeline (Scrape → Clean → Chunk → Embed → Retrieve)
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 | Layer           | Technology                                |
 | --------------- | ----------------------------------------- |
@@ -34,7 +33,7 @@ Built for operational awareness, this system collects real-time solar data from 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Astro-Knowledge-Assistant/
@@ -75,7 +74,7 @@ Astro-Knowledge-Assistant/
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 ### 1. Clone the Repository
 
@@ -120,7 +119,7 @@ ollama pull llama3
 
 ---
 
-## 🔑 Environment Setup
+##  Environment Setup
 
 Create a `.env` file in the project root:
 
@@ -130,7 +129,7 @@ NASA_API_KEY=your_nasa_api_key_here
 
 ---
 
-## 🏗️ Build the Knowledge Base
+##  Build the Knowledge Base
 
 ### Step 1 — Fetch Latest Space Weather Data
 
@@ -160,7 +159,7 @@ python src/vector_store.py
 
 ---
 
-## ▶️ Run the Application
+##  Run the Application
 
 ```bash
 streamlit run src/app.py
@@ -168,18 +167,16 @@ streamlit run src/app.py
 
 ---
 
-## 🔐 Default Admin Credentials
+##  Default Admin Credentials
 
 ```text
 Username: ssgi_admin
 Password: solar_2026
 ```
 
-> Change the default credentials before deploying to production.
-
 ---
 
-## 📊 Data Pipeline Workflow
+##  Data Pipeline Workflow
 
 ```text
 NASA DONKI API + NOAA SWPC
@@ -213,23 +210,6 @@ NASA DONKI API + NOAA SWPC
  Professional Space Weather Briefing
 ```
 
----
 
-## 🎯 Use Cases
 
-* Space Weather Monitoring Centers
-* Solar Storm Intelligence & Forecasting
-* GNSS and Satellite Operations Support
-* Aviation and HF Communication Monitoring
-* Research and Educational Applications
-* Operational Space Situational Awareness
 
----
-
-## 👨‍💻 Developed By
-
-**Space Science and Geospatial Institute (SSGI)**
-
-Machine Learning & Space Weather Intelligence Team
-
-Addis Ababa, Ethiopia
